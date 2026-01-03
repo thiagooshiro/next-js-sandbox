@@ -82,7 +82,7 @@ Contributions are welcome! This project is designed to help students learn, and 
 
 This project is open source and available for educational use. Feel free to use this repository as a learning resource, fork it for your own projects, or contribute improvements.
 
-**Note:** While you're free to use and modify this code, please respect the original repository and consider contributing back improvements that could help other learners.
+**Attribution:** If you use this project in your own work or teaching, a link back to the original repository is appreciated! Feel free to use it however you need - we just like to see where it goes. 😊
 
 ## 🛠️ Tech Stack
 
