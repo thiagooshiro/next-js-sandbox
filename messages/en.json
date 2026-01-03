@@ -1,0 +1,48 @@
+{
+  "common": {
+    "editor": "Editor",
+    "preview": "Preview",
+    "compiling": "Compiling...",
+    "previewPlaceholder": "Your preview will appear here",
+    "language": "Language",
+    "tryCode": "Try Your Code"
+  },
+  "errors": {
+    "compilationError": "Compilation Error",
+    "runtimeError": "Runtime Error",
+    "errorInPreview": "Error in Preview",
+    "unknownError": "Unknown error",
+    "noComponentExported": "No component exported. Make sure to use \"export default\" or \"export\""
+  },
+  "exercises": {
+    "helloWorld": {
+      "title": "Hello World Component",
+      "description": "Create a simple React component that displays \"Hello, World!\"",
+      "template": "import React from 'react';\n\nexport default function HelloWorld() {\n  // Write your code here\n  return (\n    <div>\n      {/* Your JSX goes here */}\n    </div>\n  );\n}",
+      "example": "import React from 'react';\n\nexport default function HelloWorld() {\n  return (\n    <div>\n      <h1>Hello, World!</h1>\n    </div>\n  );\n}",
+      "explanation": {
+        "title": "Your First React Component",
+        "intro": "A React component is a JavaScript function that returns JSX to describe what appears on screen. Let's build your first one!",
+        "exampleTitle": "Example Component",
+        "exampleDescription": "Here's what a complete component looks like:",
+        "steps": {
+          "step1": {
+            "title": "1. Function Declaration",
+            "description": "Start with a function. The name should start with a capital letter."
+          },
+          "step2": {
+            "title": "2. Return JSX",
+            "description": "Return JSX (looks like HTML) to describe your UI."
+          },
+          "step3": {
+            "title": "3. Export Default",
+            "description": "Export your component so it can be used."
+          }
+        },
+        "yourTask": "Your task: Write a component that displays \"Hello, World!\"",
+        "hint": "💡 Hint: Use an h1 tag inside a div to display the text."
+      }
+    }
+  }
+}
+

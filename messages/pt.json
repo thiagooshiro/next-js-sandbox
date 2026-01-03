@@ -1,0 +1,48 @@
+{
+  "common": {
+    "editor": "Editor",
+    "preview": "Visualização",
+    "compiling": "Compilando...",
+    "previewPlaceholder": "Sua visualização aparecerá aqui",
+    "language": "Idioma",
+    "tryCode": "Testar Código"
+  },
+  "errors": {
+    "compilationError": "Erro de Compilação",
+    "runtimeError": "Erro de Execução",
+    "errorInPreview": "Erro na Visualização",
+    "unknownError": "Erro desconhecido",
+    "noComponentExported": "Nenhum componente exportado. Certifique-se de usar \"export default\" ou \"export\""
+  },
+  "exercises": {
+    "helloWorld": {
+      "title": "Componente Hello World",
+      "description": "Crie um componente React simples que exibe \"Hello, World!\"",
+      "template": "import React from 'react';\n\nexport default function HelloWorld() {\n  // Escreva seu código aqui\n  return (\n    <div>\n      {/* Seu JSX vai aqui */}\n    </div>\n  );\n}",
+      "example": "import React from 'react';\n\nexport default function HelloWorld() {\n  return (\n    <div>\n      <h1>Hello, World!</h1>\n    </div>\n  );\n}",
+      "explanation": {
+        "title": "Seu Primeiro Componente React",
+        "intro": "Um componente React é uma função JavaScript que retorna JSX para descrever o que aparece na tela. Vamos criar o primeiro!",
+        "exampleTitle": "Exemplo de Componente",
+        "exampleDescription": "Veja como um componente completo se parece:",
+        "steps": {
+          "step1": {
+            "title": "1. Declaração de Função",
+            "description": "Comece com uma função. O nome deve começar com letra maiúscula."
+          },
+          "step2": {
+            "title": "2. Retornar JSX",
+            "description": "Retorne JSX (parece HTML) para descrever sua interface."
+          },
+          "step3": {
+            "title": "3. Export Default",
+            "description": "Exporte seu componente para que possa ser usado."
+          }
+        },
+        "yourTask": "Sua tarefa: Escreva um componente que exiba \"Hello, World!\"",
+        "hint": "💡 Dica: Use uma tag h1 dentro de um div para exibir o texto."
+      }
+    }
+  }
+}
+
