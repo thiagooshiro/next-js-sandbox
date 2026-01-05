@@ -13,6 +13,7 @@ export function LanguageSwitcher() {
     // Get the pathname without the locale prefix
     const pathnameWithoutLocale = pathname.replace(`/${locale}`, '') || '/';
     // Navigate to the new locale with the same path
+    
     router.push(`/${newLocale}${pathnameWithoutLocale}`);
     router.refresh();
   };
